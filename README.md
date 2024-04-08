@@ -1,4 +1,4 @@
-![alt text](http://url/to/img.png)
+![Employee Dashboard](Employee_Dashboard.webp)
 
 # Project Title: Employee Dashboard
 
