@@ -1,5 +1,7 @@
+// Helper Function to get 10 photos from API using Fetch
+
 export async function getTenPhotos() {
-  fetch("https://jsonplaceholder.typicode.com/photos?_limit10")
+  fetch("https://jsonplaceholder.typicode.com/photos?_limit=10")
     .then((response) => response.json())
     .then((json) => {
       let photoContainer = document.querySelector(".photoContainer");
